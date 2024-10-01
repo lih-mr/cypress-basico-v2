@@ -6,9 +6,9 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:open:mobile": "cypress open --config viewportWidth=410 viewportHeight=860",
-    "cy:run:mobile":"cypress run --config video=false viewportWidth=410 viewportHeight=860",
-    "test": "cypress run --config video=false "
+    "test": "cypress run"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wlsf82/cypress-basico-v2.git"
